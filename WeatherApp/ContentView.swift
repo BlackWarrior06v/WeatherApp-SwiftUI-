@@ -7,6 +7,10 @@
 
 import SwiftUI
 
+#Preview {
+    ContentView()
+}
+
 struct ContentView: View {
     
     @State private var isNight = false
@@ -55,10 +59,6 @@ struct ContentView: View {
             }
         }
     }
-}
-
-#Preview {
-    ContentView()
 }
 
 struct WeatherDayView: View {
